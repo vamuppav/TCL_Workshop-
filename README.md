@@ -8,7 +8,7 @@ TCL (Tool Command Language) is a scripting language widely used in VLSI and EDA 
 
 ## DAY 1
 
-__Create Command (panda) and pass csv file from UNIC shell to Tcl script__
+__Create Command (tclbox) and pass csv file from UNIC shell to Tcl script__
 
 * We let the system know its a UNIX script by ```  #!/bin/tcsh -f ```
 * we create create our own logo for letteing the user know more about the provider.
