@@ -55,7 +55,31 @@ SDC file
 
 ## DAY 4
 
+Yosys Synthesis, Hierarchy Checks, and Netlist Processing
 
+   - Introduced the Yosys synthesis flow using a memory RTL example  
+   - Analyzed memory read/write operations and synthesized gate-level netlists  
+   - Implemented hierarchy checking scripts with robust error handling  
+   - Created and executed the main Yosys synthesis TCL script
+
+* Running hierarchy check
+   Senario 1 : All modules are present and referenced correctly
+  
+     ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/1ee5fe358e0e6a53c5fc91138fc5a56eb1f960fd/9..png) 
+  
+   Senario 2 : Module reference error due to incorrect instantiation or missing module
+  
+    ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/1ee5fe358e0e6a53c5fc91138fc5a56eb1f960fd/10..png)
+  
+* The synthesis flow begins only after a successful hierarchy check.
+
+     Senario 1 : All modules are present and referenced correctly
+  
+     ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/1ee5fe358e0e6a53c5fc91138fc5a56eb1f960fd/11..png)
+  
+     Senario 2 : Module reference error due to incorrect instantiation or missing module
+  
+     ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/1ee5fe358e0e6a53c5fc91138fc5a56eb1f960fd/12..png)
 
 
 
