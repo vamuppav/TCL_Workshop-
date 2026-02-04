@@ -15,13 +15,13 @@ __Create Command (panda) and pass csv file from UNIC shell to Tcl script__
 
 * Then we verify three general scenarios for a user point of view
    1. When user doesnt enter the csv file
-   ![image _alt]()
+   ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/015e44b0b8feb3879014eb96dabbabc772d1315d/1..png)
   
    2. When user enters the wrong csv file/ file doesnt exist
-   ![image _alt]()
+   ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/015e44b0b8feb3879014eb96dabbabc772d1315d/2..png)
  
    3. when user enters __-help__
-   ![image _alt]()
+   ![image _alt](https://github.com/vamuppav/TCL_Workshop-/blob/015e44b0b8feb3879014eb96dabbabc772d1315d/3%2C..png)
 * Then we source the Unix shell to the Tcl script by passing the required csv file
 
   ```
